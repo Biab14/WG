@@ -27,7 +27,7 @@ body{
     border-width: 100%;
     padding-top: 35px;
     padding-bottom: 35px;
-    font-size: 40px;
+    font-size: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,11 +36,10 @@ body{
 .prin{
     display: flex;
     align-items: center;
-    
     color:white;
     background-color: #AECBFA;
     padding: 60px 3px 60px 3px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .tit2{
