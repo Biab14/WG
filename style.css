@@ -1,0 +1,111 @@
+:root {
+    --cor-1: #E57373;
+    --cor-2: #AECBFA;
+    --cor-3: #FBF08A;
+
+}
+
+
+body{
+    font-family: "Jockey One", Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logot{
+    width: 300px;
+    height: 300px;
+}
+
+.tit{
+    color:var(--cor-1);
+    border-top:#AECBFA solid 3.5px;
+    border-bottom:#AECBFA solid 3.5px;
+    border-width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prin{
+    display: flex;
+    align-items: center;
+    
+    color:white;
+    background-color: #AECBFA;
+    padding: 60px 3px 60px 3px;
+    font-size: 25px;
+}
+
+.tit2{
+    color: #E57373;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.foto1{
+    display:flex;
+    justify-content: center;
+}
+
+.fotos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fotinhas{
+    border-radius: 300px;
+    box-shadow: rgb(195, 181, 181) 5px 5px 10px 5px ;
+}
+
+
+.footeres{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row ;
+    margin:0px 500px 0px 500px;
+    color:white;
+}
+
+.footeres :hover{
+ color: var(--cor-1);
+ transition: 1s;
+}
+
+.icones{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0px 650px 0px 650px;
+}
+
+.icone1{
+    width:20px;
+    height:20px;
+    border:solid white 0.5px;
+    border-radius:18px;
+    padding:11px 11px 11px 11px;
+}
+
+.icone2{
+    width:22px;
+    height:22px;
+    border:solid white 0.5px ;
+    border-radius:18px;
+    padding:11px 11px 11px 11px;
+}
+
+footer{
+    background-color: #AECBFA;
+    padding: 40px 0px 40px 0px;
+}
