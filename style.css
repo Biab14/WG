@@ -61,6 +61,8 @@ body{
 }
 
 .fotinhas{
+    width:20px;
+    height:20px;
     border-radius: 300px;
     box-shadow: rgb(195, 181, 181) 5px 5px 10px 5px ;
 }
