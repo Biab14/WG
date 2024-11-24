@@ -51,9 +51,9 @@ body{
 
 .foto1{
     display:flex;
-    width:300px;
-    height:300px;
     justify-content: center;
+    width:600px;
+    height:600px;
 }
 
 .fotos{
