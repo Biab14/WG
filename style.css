@@ -51,6 +51,7 @@ body{
 
 .foto1{
     display:flex;
+    item-align:center;
     justify-content: center;
     width:600px;
     height:600px;
